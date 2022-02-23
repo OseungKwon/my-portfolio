@@ -14,7 +14,7 @@ import About from "./pages/About";
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <BrowserRouter>
+    <BrowserRouter basename="/my-portfolio">
       <Header />
       <Routes>
         <Route path="/" element={<About />} />
