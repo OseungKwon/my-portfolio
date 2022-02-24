@@ -39,7 +39,7 @@ export const projects = [
     id: "importh",
     title: "import-H",
     explain: "누구나 쉽게 활동할 수 있는 스터디 사이트",
-    contribute: `- 전체/프론트엔드 **팀장으로써 전반적인 개발 총괄**
+    contribute: `- 전체/프론트엔드 **팀장으로서 전반적인 개발 총괄**
 - 백엔드와 협업하여 **API 문서 작성 및 DB 설계**
 - react-testing-library를 도입해 **unit, E2E 테스트** 진행
 - **redux-toolkit**을 사용해 전역 상태와 비동기를 관리함

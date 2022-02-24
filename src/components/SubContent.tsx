@@ -71,10 +71,33 @@ const SubContent: React.FC<PropsAllT> = ({ project }) => {
   return (
     <Space>
       <span className="content">
-        {project.page && <a href={project.page}>{project.title}</a>}
+        {project.page && (
+          <a
+            href={project.page}
+            target="_blank"
+            rel="noopener noreferrer" //tabnapping 방지
+          >
+            {project.title}
+          </a>
+        )}
         &nbsp;
-        <a href={project.github}>Github</a> &nbsp;
-        {project.notion && <a href={project.notion}>Notion</a>}
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer" //tabnapping 방지
+        >
+          Github
+        </a>
+        &nbsp;
+        {project.notion && (
+          <a
+            href={project.notion}
+            target="_blank"
+            rel="noopener noreferrer" //tabnapping 방지
+          >
+            Notion
+          </a>
+        )}
       </span>
       <div className="content">
         Tech: &nbsp;<span>{project.tech}</span>

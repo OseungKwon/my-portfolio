@@ -1,13 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`    
-     :root{
-      --point-color-orange: #FF6C26;
-      --point-color-yellow:#ffc90a;
-      --point-color-red: #cc2418;
-      --secondary-color: #7973ce;
-      
-    }
+
     
     *{
       
@@ -18,10 +12,10 @@ const GlobalStyle = createGlobalStyle`
         
     }
     a{
-      
+      text-decoration: none;
       color: #333;
       &:hover{  
-          color: var(--secondary-color)
+          color: rgb(255, 116, 36)
         }
     }
 
@@ -56,7 +50,7 @@ const GlobalStyle = createGlobalStyle`
     a{
       color: #333;
       &:hover{  
-          color: var(--secondary-color)
+          color: rgb(255, 116, 36)
         }
     }
 
