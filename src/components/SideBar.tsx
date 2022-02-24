@@ -22,6 +22,16 @@ const Space = styled.div`
   & .active {
     box-shadow: 5px 5px rgb(255, 116, 36);
   }
+  & .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    text-decoration: underline;
+    &:hover {
+      color: rgb(255, 116, 36);
+    }
+  }
   img {
     width: 20rem;
     @media (max-width: 1500px) {
@@ -106,6 +116,14 @@ const SideBar: React.FC<PropsT> = ({ id }) => {
           className={id === "qlick" ? "active" : ""}
         />
       </Link>
+      <a
+        href="https://jamong1.notion.site/s-Project-Activities-743fa21b56424fa4b2147fbed8a0c33b"
+        className="more"
+        target="_blank"
+        rel="noopener noreferrer" //tabnapping 방지
+      >
+        more
+      </a>
     </Space>
   );
 };
