@@ -71,7 +71,7 @@ const SubContent: React.FC<PropsAllT> = ({ project }) => {
   return (
     <Space>
       <span className="content">
-        {project.page && <a href={project.github}>{project.title}</a>}
+        {project.page && <a href={project.page}>{project.title}</a>}
         &nbsp;
         <a href={project.github}>Github</a> &nbsp;
         {project.notion && <a href={project.notion}>Notion</a>}

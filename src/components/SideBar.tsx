@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 import handpainting from "../assets/logo/handpainting(logo).png";
 import importH from "../assets/logo/import-H(logo).png";
@@ -8,7 +8,8 @@ import qlick from "../assets/logo/qlick(logo).png";
 
 const Space = styled.div`
   position: relative;
-  background-color: #fff;
+  background-color: #2f2f2f;
+  color: white;
   margin: 3rem;
   margin-right: 0;
   padding: 2rem;
@@ -19,7 +20,7 @@ const Space = styled.div`
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.07);
 
   & .active {
-    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px rgb(255, 116, 36);
   }
   img {
     width: 20rem;
@@ -29,7 +30,7 @@ const Space = styled.div`
 
     &:hover {
       transition: all 0.3s ease-in-out;
-      box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 5px 5px rgb(255, 116, 36);
     }
   }
   a {
@@ -46,7 +47,7 @@ const Space = styled.div`
     flex-wrap: wrap;
   }
   @media (max-width: 1200px) {
-    justify-content: flex-end;
+    justify-content: center;
     margin: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,6 +68,13 @@ const Title = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    display: flex;
+  }
 `;
 
 type PropsT = {
