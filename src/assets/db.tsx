@@ -18,8 +18,8 @@ export const projects = [
   {
     id: "handpainting",
     title: "HANDPAINTING",
-    explain: `아이들을 대상으로 수화에 대한 긍정적 인식을 높여, 청각 장애인 차별을 없애고자 기획한 프로젝트이다.
-머신러닝은 mediapipe의 hands를 가져와 사용했으며, hands 머신러닝을 응용해 손의 상대 위치에 따라 수화 동작을 인식하고, 이를 프로세싱으로 보여주는 웹사이트이다.`,
+    explain: `수화에 대한 긍정적 인식을 높이고, 청각 장애인 차별을 없애고자 기획한 프로젝트
+수화를 통해 청각 예술인 음악을 시각 예술로서 표출할 수 있게 만들어졌다.`,
     contribute: `- 전반적인 **개발 총괄**
 - **MediaPipe Hands 머신러닝을 도입**해 손을 인식시키고 수화를 인식할 수 있게 개발
 - **p5.js**를 도입해 JavaScript에서 프로세싱을 활용함.
@@ -43,7 +43,7 @@ export const projects = [
 - 백엔드와 협업하여 **API 문서 작성 및 DB 설계**
 - react-testing-library를 도입해 **unit, E2E 테스트** 진행
 - **redux-toolkit**을 사용해 전역 상태와 비동기를 관리함
-- 프로젝트를 **기획하고 개발, 배포**까지 진행
+- 프로젝트를 **기획 및 개발, 배포**까지 진행
     `,
     grow: `- 단순히 라이브러리를 도입하지 않고, [더 나은 개선방안을 고민함](https://velog.io/@wkahd01/import-H-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A4%91%EA%B0%84-%ED%9A%8C%EA%B3%A0).
 - 팀원과 [프로젝트](https://www.notion.so/jamong1/Import-H-d4f69f3c20ce4a22a5b0f6ac952da2d2), [API 문서](https://jamong1.notion.site/api-70ce2ec74f684f5b9a992089af468d4f)를 작성하며 협업과 문서 작성의 중요성을 알았으며, API 문서를 적극 사용하며 개발 일정을 10% 앞당김
@@ -61,10 +61,10 @@ export const projects = [
     id: "qlick",
     title: "QLICK",
     explain: `"코드 리뷰를 쉽고 간편하게"
-자신의 코드에 명확한 확신이 없는 대상인 신입 개발자들을 타겟으로 한, 온라인 코드리뷰 서비스`,
+자신의 코드에 명확한 확신이 없는 신입 개발자들을 대상으로 한, 온라인 코드리뷰 서비스`,
     contribute: `- toast-ui editor를 도입해 **QnA 페이지**를 개발.
-- 태그를 검색해, 해당 태그을 클릭하면 태그를 사용한 게시물이 보여지게 하는 **태그 페이지**를 개발.`,
-    grow: `- toast-ui editor를 사용하면서 발생한 에러들을 [해결](https://velog.io/@wkahd01/33)하기 위해 패키지의 코드를 직접 뜯어보고, 어떻게 사용하는것이 효율적인지 고민하는 계기가 됨.
+- 태그를 검색하고 클릭하면 태그를 사용한 게시물이 보여지게 하는 **태그 페이지**를 개발.`,
+    grow: `- toast-ui editor를 사용하면서 발생한 에러들을 [해결](https://velog.io/@wkahd01/33)하기 위해 패키지의 코드를 분석하고, 어떻게 사용하는것이 효율적인지 고민하는 계기가 됨.
 - QLICK 프로젝트를 통해 백엔드와 협업하며 API, 비동기 통신을 공부하고 이를 프로젝트에 적용시킴
 - Next.js를 사용하면서 SSR로 인해 window 객체가 불러오지 않는 문제 해결`,
     github: "https://github.com/OseungKwon/QLICK",
@@ -83,9 +83,9 @@ export const activitys = [
     link: "https://velog.io/@wkahd01",
     subtitle: "**지식을 다지고 공유**하기 위한 블로그",
     content: `- 약 90개의 글 작성
-- 알고리즘 문제 풀이후 발표하기 위해 작성한 [글들](https://velog.io/@wkahd01/series/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+- 알고리즘 문제를 풀고 이를 발표하기 위해 문제풀이 글을 [작성](https://velog.io/@wkahd01/series/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 - 프로젝트를 하며 느꼈던 것들을 [공유](https://velog.io/@wkahd01/series/Team-Project)
-- JS,React를 공부하며 얻은 지식들 [공유](https://velog.io/@wkahd01/series/JavaScript)`,
+- JS, React를 공부하며 얻은 지식들 [공유](https://velog.io/@wkahd01/series/JavaScript)`,
     bgcolor: "rgb(198, 250, 219)"
   },
   {
@@ -95,8 +95,8 @@ export const activitys = [
     subtitle: "**함께 성장**하기 위해 만든 스터디",
     content: `- 약 30명이 활동중
 - 알고리즘 스터디: 알고리즘 스터디를 개설해 주2회씩 활동
-- qna채널: qna채널을 운영하며 서로간의 지식 공유
-- TIL 채널: 스터디원마다 1개의 TIL 채널이 있어, 그날 공부한 내용을 간략히 소개및 공유`,
+- QnA채널: QnA채널을 운영하며 서로간의 지식 공유
+- TIL 채널: 스터디원마다 1개의 TIL 채널을 보유하고 있으며, 그날 공부한 내용을 간략히 소개 및 공유함`,
     bgcolor: "rgb(181, 222, 255)"
   },
   {
